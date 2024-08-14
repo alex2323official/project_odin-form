@@ -1,6 +1,7 @@
 let password1 = document.querySelector("#password1");
 let password2 = document.querySelector("#password2");
 const validationOutput = document.querySelector("#password-validation");
+const thankYou = document.querySelector("#thankyou");
 const btn = document.querySelector("#btn");
 
 // Validate:
@@ -12,6 +13,8 @@ btn.addEventListener("click", (e) => {
     } else {
       e.preventDefault();
       validationOutput.textContent = "";
+      thankYou.textContent =
+        "Successful registration. Our Robot will contact you today.";
     }
   }
 });

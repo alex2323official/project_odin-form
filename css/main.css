@@ -11,11 +11,27 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  /* animations */
+  animation-name: h1Slaying;
+  animation-duration: 4s;
+}
+
+/* GO FANCY GURRRRRLLLLLLLL! */
+/* The animation code */
+@keyframes h1Slaying {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: var(--color-black);
+  }
 }
 
 h1 {
   font-size: var(--font-size-h1);
-  margin: 68px 0;
+  padding: 68px 0;
+  width: 100%;
   text-align: center;
 }
 
@@ -99,6 +115,11 @@ h1 {
 
 .realform {
   border: solid 1px #fff;
+  transition: 0.5s;
+}
+
+.realform:hover {
+  border: solid 1px red;
 }
 
 .realform__h2 {
