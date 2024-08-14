@@ -106,6 +106,10 @@ h1 {
   padding: 42px 0;
 }
 
+input {
+  color: var(--color-black);
+}
+
 .realform__row {
   display: flex;
   justify-content: space-around;
@@ -118,6 +122,7 @@ fieldset {
   flex-direction: column;
 }
 
+/* First row */
 .realform__first-row--name {
   display: flex;
   flex-direction: column;
@@ -136,8 +141,14 @@ fieldset {
   width: 100%;
 }
 
+.realform__row input:focus {
+  color: var(--color-primary);
+}
+
 /* validation */
 .realform__first-row--name fieldset:invalid label,
 .realform__first-row--lastname fieldset:invalid label {
   color: red;
 }
+
+/* Second row */

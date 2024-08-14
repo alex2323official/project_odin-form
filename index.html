@@ -35,6 +35,7 @@
         <div class="form__right--center">
           <form action="" method="get" class="realform">
             <h2 class="realform__h2">Let's do this!</h2>
+            <!-- first row -->
             <div class="realform__row">
               <div class="realform__first-row--name">
                 <fieldset>
@@ -50,9 +51,47 @@
               </div>
             </div>
 
-            <div class="realform__second-row"></div>
+            <!-- second row -->
+            <div class="realform__row">
+              <div class="realform__first-row--name">
+                <fieldset>
+                  <label for="email">Email*</label>
+                  <input type="email" name="email" id="email" required />
+                </fieldset>
+              </div>
+              <div class="realform__first-row--lastname">
+                <fieldset>
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" name="phone" id="phone" required />
+                </fieldset>
+              </div>
+            </div>
 
-            <div class="realform__third-row"></div>
+            <!-- third row -->
+            <div class="realform__row">
+              <div class="realform__first-row--name">
+                <fieldset>
+                  <label for="password1">Password*</label>
+                  <input
+                    type="password"
+                    name="password1"
+                    id="password1"
+                    required
+                  />
+                </fieldset>
+              </div>
+              <div class="realform__first-row--lastname">
+                <fieldset>
+                  <label for="password2">Confirm Password</label>
+                  <input
+                    type="password"
+                    name="password2"
+                    id="password2"
+                    required
+                  />
+                </fieldset>
+              </div>
+            </div>
           </form>
         </div>
         <div class="form__right--bottom">btn</div>
