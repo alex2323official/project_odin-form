@@ -61,7 +61,7 @@
               </div>
               <div class="realform__first-row--lastname">
                 <fieldset>
-                  <label for="phone">Phone Number</label>
+                  <label for="phone">Phone Number*</label>
                   <input type="tel" name="phone" id="phone" required />
                 </fieldset>
               </div>
@@ -78,11 +78,14 @@
                     id="password1"
                     required
                   />
+                  <div class="password-validation-js">
+                    * Passwords do not match!
+                  </div>
                 </fieldset>
               </div>
               <div class="realform__first-row--lastname">
                 <fieldset>
-                  <label for="password2">Confirm Password</label>
+                  <label for="password2">Confirm Password*</label>
                   <input
                     type="password"
                     name="password2"
@@ -94,7 +97,14 @@
             </div>
           </form>
         </div>
-        <div class="form__right--bottom">btn</div>
+        <div class="form__right--bottom">
+          <button class="form__right--bottom-btn" type="submit">
+            Create Account
+          </button>
+          <span class="form__right--bottom-text"
+            >Already have an account? <a href="#">Log in</a>
+          </span>
+        </div>
       </div>
     </section>
   </body>

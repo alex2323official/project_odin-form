@@ -30,7 +30,7 @@ h1 {
 
 /* Left side */
 .form__left {
-  width: 37.5vw;
+  width: 40%;
   background-image: url(../images/bg_image.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -67,7 +67,7 @@ h1 {
 
 /* Right side */
 .form__right {
-  width: 62.5vw;
+  width: 60%;
   border-top: solid 2px var(--color-red);
   border-bottom: solid 2px var(--color-red);
   border-right: solid 2px var(--color-red);
@@ -77,14 +77,14 @@ h1 {
 }
 
 .form__right--top-txt {
-  padding: 1rem;
+  padding: 3rem;
   display: inline-block;
   font-size: var(--font-size-txt);
 }
 
 .form__right--bottom-txt {
   display: inline-block;
-  padding: 1rem;
+  padding: 3rem;
   color: var(--color-red);
   font-size: var(--font-size-h3);
 }
@@ -94,7 +94,7 @@ h1 {
 /************************************/
 
 .form__right--center {
-  padding: 42px;
+  padding: 3rem;
 }
 
 .realform {
@@ -103,7 +103,7 @@ h1 {
 
 .realform__h2 {
   text-align: center;
-  padding: 42px 0;
+  padding: 26px 0;
 }
 
 input {
@@ -112,7 +112,7 @@ input {
 
 .realform__row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
   margin-bottom: 42px;
 }
@@ -145,10 +145,26 @@ fieldset {
   color: var(--color-primary);
 }
 
-/* validation */
+/* Validation */
 .realform__first-row--name fieldset:invalid label,
 .realform__first-row--lastname fieldset:invalid label {
   color: red;
 }
 
-/* Second row */
+/* JS validation */
+.password-validation-js {
+  color: var(--color-red);
+  font-size: 0.7rem;
+  margin: 8px 0;
+  text-decoration: underline;
+}
+
+/* Bottom part of form */
+.form__right--bottom-btn {
+}
+
+.form__right--bottom-text {
+}
+
+.form__right--bottom-text a {
+}
