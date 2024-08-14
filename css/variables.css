@@ -1,0 +1,14 @@
+/* VARIABLES */
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+/*    =>  to use variable:  */
+/*    =>  color: var(--blue); */
+
+/* FONTS */
+:root {
+  --font-roboto: "Roboto Mono", monospace;
+  --font-orbitron: "Orbitron", sans-serif;
+}
