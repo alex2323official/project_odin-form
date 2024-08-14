@@ -12,6 +12,7 @@ body {
 h1 {
   font-size: var(--font-size-h1);
   margin: 68px 0;
+  text-align: center;
 }
 
 /* SECTION: FORM */
@@ -29,10 +30,11 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border: solid 2px var(--color-red);
 }
 
 .form__left--topline {
-  background-color: #fff;
+  background-color: var(--color-white);
   height: 1px;
   width: 100%;
   padding-top: 32px;
@@ -46,11 +48,10 @@ h1 {
   margin-left: 33px;
   margin-top: 33px;
   margin-bottom: 33px;
-  /* border-bottom: solid 1px #fff; */
 }
 
 .form__left--underline {
-  background-color: #fff;
+  background-color: var(--color-white);
   height: 32px;
   width: 100%;
 }
@@ -58,5 +59,7 @@ h1 {
 /* Right side */
 .form__right {
   width: 62.5vw;
-  border: solid 2px red;
+  border-top: solid 2px var(--color-red);
+  border-bottom: solid 2px var(--color-red);
+  border-right: solid 2px var(--color-red);
 }
