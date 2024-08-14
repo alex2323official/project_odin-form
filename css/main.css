@@ -37,11 +37,11 @@ h1 {
 
 /* SECTION: FORM */
 .form {
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   background-color: var(--color-primary);
   min-height: 70vh;
-  max-width: 1920px;
+  max-width: 1664px;
 }
 
 /* Left side */
