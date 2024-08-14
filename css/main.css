@@ -50,6 +50,10 @@ h1 {
   margin-bottom: 33px;
 }
 
+.form__left--text > span {
+  color: red;
+}
+
 .form__left--underline {
   background-color: var(--color-white);
   height: 32px;
