@@ -35,14 +35,18 @@
         <div class="form__right--center">
           <form action="" method="get" class="realform">
             <h2 class="realform__h2">Let's do this!</h2>
-            <div class="realform__first-row">
+            <div class="realform__row">
               <div class="realform__first-row--name">
-                <label for="first">First Name</label>
-                <input type="text" name="first" id="first" />
+                <fieldset>
+                  <label for="first">First Name*</label>
+                  <input type="text" name="first" id="first" required />
+                </fieldset>
               </div>
               <div class="realform__first-row--lastname">
-                <label for="last">Last Name</label>
-                <input type="text" name="last" id="last" />
+                <fieldset>
+                  <label for="last">Last Name*</label>
+                  <input type="text" name="last" id="last" required />
+                </fieldset>
               </div>
             </div>
 

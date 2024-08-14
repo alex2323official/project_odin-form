@@ -8,6 +8,9 @@ body {
   color: var(--color-white);
   width: 100vw;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -22,6 +25,7 @@ h1 {
   display: flex;
   background-color: var(--color-primary);
   min-height: 70vh;
+  max-width: 1920px;
 }
 
 /* Left side */
@@ -90,7 +94,50 @@ h1 {
 /************************************/
 
 .form__right--center {
+  padding: 42px;
 }
 
 .realform {
+  border: solid 1px #fff;
+}
+
+.realform__h2 {
+  text-align: center;
+  padding: 42px 0;
+}
+
+.realform__row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 42px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.realform__first-row--name {
+  display: flex;
+  flex-direction: column;
+}
+
+.realform__first-row--lastname {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+.realform__row input {
+  width: 100%;
+}
+
+/* validation */
+.realform__first-row--name fieldset:invalid label,
+.realform__first-row--lastname fieldset:invalid label {
+  color: red;
 }
