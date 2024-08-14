@@ -4,6 +4,59 @@
 /* MAIN CSS FOR WEBSITE */
 body {
   font-family: var(--font-orbitron);
-  background-color: var(--color-primary);
+  background-color: var(--color-black);
   color: var(--color-white);
+  width: 100vw;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  margin: 68px 0;
+}
+
+/* SECTION: FORM */
+.form {
+  width: 100vw;
+  display: flex;
+  background-color: var(--color-primary);
+  min-height: 70vh;
+}
+
+/* Left side */
+.form__left {
+  width: 37.5vw;
+  background-image: url(../images/bg_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form__left--topline {
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+  padding-top: 32px;
+}
+
+.form__left--text {
+  display: block;
+  width: 100%;
+  font-size: var(--font-size-h2);
+  text-align: left;
+  margin-left: 33px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  /* border-bottom: solid 1px #fff; */
+}
+
+.form__left--underline {
+  background-color: #fff;
+  height: 32px;
+  width: 100%;
+}
+
+/* Right side */
+.form__right {
+  width: 62.5vw;
+  border: solid 2px red;
 }
