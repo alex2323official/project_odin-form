@@ -78,8 +78,8 @@
                     id="password1"
                     required
                   />
-                  <div class="password-validation-js">
-                    * Passwords do not match!
+                  <div id="password-validation" class="password-validation-js">
+                    <!-- * Passwords do not match! -->
                   </div>
                 </fieldset>
               </div>
@@ -95,17 +95,19 @@
                 </fieldset>
               </div>
             </div>
+            <div class="form__right--bottom">
+              <button id="btn" class="form__right--bottom-btn" type="submit">
+                Create Account
+              </button>
+              <span class="form__right--bottom-text"
+                >Already have an account? <a href="#">Log in</a>
+              </span>
+            </div>
           </form>
-        </div>
-        <div class="form__right--bottom">
-          <button class="form__right--bottom-btn" type="submit">
-            Create Account
-          </button>
-          <span class="form__right--bottom-text"
-            >Already have an account? <a href="#">Log in</a>
-          </span>
         </div>
       </div>
     </section>
+    <!-- JS before body close -->
+    <script src="./script.js"></script>
   </body>
 </html>
