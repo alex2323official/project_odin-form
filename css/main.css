@@ -77,14 +77,14 @@ h1 {
 }
 
 .form__right--top-txt {
-  padding: 3rem;
+  padding: 1.5rem;
   display: inline-block;
-  font-size: var(--font-size-txt);
+  font-size: var(--font-size-h3);
 }
 
 .form__right--bottom-txt {
   display: inline-block;
-  padding: 3rem;
+  padding: 1.5rem;
   color: var(--color-red);
   font-size: var(--font-size-h3);
 }
@@ -145,6 +145,10 @@ fieldset {
   color: var(--color-primary);
 }
 
+.realform__first-row--name fieldset label {
+  transition: 0.5s;
+}
+
 /* Validation */
 .realform__first-row--name fieldset:invalid label,
 .realform__first-row--lastname fieldset:invalid label {
@@ -160,11 +164,35 @@ fieldset {
 }
 
 /* Bottom part of form */
+.form__right--bottom {
+  padding: 48px;
+}
+
 .form__right--bottom-btn {
+  background-color: var(--color-white);
+  width: 200px;
+  height: 60px;
+  transition: 0.5s;
+}
+
+.form__right--bottom-btn:hover {
+  background-color: red;
+  color: var(--color-primary);
+  cursor: pointer;
 }
 
 .form__right--bottom-text {
+  margin-left: 16px;
 }
 
 .form__right--bottom-text a {
+  color: var(--color-red);
+  margin-left: 4px;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.form__right--bottom-text a:hover {
+  font-size: 1.2rem;
 }
