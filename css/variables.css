@@ -1,11 +1,12 @@
-/* VARIABLES */
+/* COLORS */
 :root {
-  --blue: #1e90ff;
-  --white: #ffffff;
+  --color-primary: #060047;
+  --color-secondary-600: #b3005e;
+  --color-secondary-400: #e90064;
+  --color-secondary-200: #ff5f9e;
+  --color-white: #fff;
+  --color-black: #33333;
 }
-
-/*    =>  to use variable:  */
-/*    =>  color: var(--blue); */
 
 /* FONTS */
 :root {

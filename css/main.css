@@ -4,4 +4,6 @@
 /* MAIN CSS FOR WEBSITE */
 body {
   font-family: var(--font-orbitron);
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
